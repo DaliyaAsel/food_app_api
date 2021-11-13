@@ -1,0 +1,32 @@
+.card{
+  flex-basis: 300px;
+  box-shadow: 0 0 6px 2px silver;
+  margin: 20px;
+  box-sizing: border-box;
+  padding: 20px 20px 40px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img{
+  width: 300px;
+}
+
+.card p{
+  margin-bottom: 30px;
+}
+
+.card-active{
+  margin-top: 20px;
+}
+
+.card-active a{
+  background: coral;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 20px 12px;
+  border-radius: 6px;
+}

@@ -1,0 +1,30 @@
+.header{
+    background: #ff7700;
+    color: #fff;
+    padding: 20px;
+}
+.header .wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 20px
+}
+.logo a{
+    color: #fff;
+    text-decoration: none;
+}
+.right{
+    text-align: right;
+}
+.right ul{
+    list-style: none;
+    display: flex;
+}
+.right a{
+    color: #fff;
+    margin-right: 20px;
+}
